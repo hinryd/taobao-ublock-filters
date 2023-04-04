@@ -1,4 +1,12 @@
-# block unnecessary taobao scripts
+! Title: Taobao uBlock Filters
+!
+! Load the minimal amount of scripts while in taobao.com and tmall.com
+!
+! Fetch the latest version of this file: https://raw.githubusercontent.com/hinryd/taobao-ublock-filters/master/static-filters.txt
+!
+! ===============================================================
+
+! block unnecessary taobao scripts
 ||g.alicdn.com/sd/*$script,domain=taobao.com
 ||g.alicdn.com/kissy/*$script,domain=taobao.com
 ||g.alicdn.com/alilog/*$script,domain=taobao.com
@@ -19,7 +27,7 @@
 ||g.alicdn.com/universal/*$script,domain=taobao.com
 ||g.alicdn.com/cell/*$script,domain=taobao.com
 
-# block unnecessary tmall scripts
+! block unnecessary tmall scripts
 ||g.alicdn.com/sd/*$script,domain=tmall.com
 ||g.alicdn.com/kissy/*$script,domain=tmall.com
 ||g.alicdn.com/alilog/*$script,domain=tmall.com
@@ -40,6 +48,6 @@
 ||g.alicdn.com/universal/*$script,domain=tmall.com
 ||g.alicdn.com/cell/*$script,domain=tmall.com
 
-# cosmetic filtering
-# remove recommendation bar
+! cosmetic filtering
+! remove recommendation bar
 s.taobao.com##.RightLay--rightWrap--OxNNeu6
