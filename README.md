@@ -1,8 +1,12 @@
-# Taobao Web Filtering
+# taobao.com script filtering
 
-Trying to load a minimal amount of tracking script while on taobao.com
+Load the minimal amount of scripts while in taobao.com and tmall.com
 
-# Instructions
+# Installation
 
-1. Use uBlock origin extension, import rules
-2. Use ClearURL extension
+1. Go to the uBlock Origin settings
+2. Click the `Filter List` tab
+3. Import the following url:
+```
+https://raw.githubusercontent.com/hinryd/taobao-ublock-filters/master/static-filters.txt
+```
