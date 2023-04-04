@@ -1,0 +1,45 @@
+# block unnecessary taobao scripts
+||g.alicdn.com/sd/*$script,domain=taobao.com
+||g.alicdn.com/kissy/*$script,domain=taobao.com
+||g.alicdn.com/alilog/*$script,domain=taobao.com
+||g.alicdn.com/secdev/*$script,domain=taobao.com
+||g.alicdn.com/dinamic/*$script,domain=taobao.com
+||g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1$script,domain=taobao.com
+||g.alicdn.com/??mtb/lib-promise/3.1.3/polyfillB.js,ali-lib/appear-polyfill/0.1.2/index.js,mtb/lib-login/2.2.0/login.js$script,domain=taobao.com
+||g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,jstracker/sdk-assests/5.6.22/index.js,secdev/sufei_data/3.8.7/index.js$script,domain=taobao.com
+||a1.alicdn.com/template/*$script,domain=taobao.com
+||fragment.tmall.com.danuoyi.alicdn.com^$script,domain=taobao.com
+||g.alicdn.com/code/mlog*$script,domain=taobao.com
+||g.alicdn.com/AWSC/*$script,domain=taobao.com
+||g.alicdn.com/tb/*$script,domain=taobao.com
+||g.alicdn.com/aliww/*$script,domain=taobao.com
+||g.alicdn.com/tmg-fe/*$script,domain=taobao.com
+||www.googletagmanager.com/gtag/*$script,domain=taobao.com
+||g.alicdn.com/jstracker/*$script,domain=taobao.com
+||g.alicdn.com/universal/*$script,domain=taobao.com
+||g.alicdn.com/cell/*$script,domain=taobao.com
+
+# block unnecessary tmall scripts
+||g.alicdn.com/sd/*$script,domain=tmall.com
+||g.alicdn.com/kissy/*$script,domain=tmall.com
+||g.alicdn.com/alilog/*$script,domain=tmall.com
+||g.alicdn.com/secdev/*$script,domain=tmall.com
+||g.alicdn.com/dinamic/*$script,domain=tmall.com
+||g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.87/ns_f_95_3_n.js?v=1$script,domain=tmall.com
+||g.alicdn.com/??mtb/lib-promise/3.1.3/polyfillB.js,ali-lib/appear-polyfill/0.1.2/index.js,mtb/lib-login/2.2.0/login.js$script,domain=tmall.com
+||g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,jstracker/sdk-assests/5.6.22/index.js,secdev/sufei_data/3.8.7/index.js$script,domain=tmall.com
+||a1.alicdn.com/template/*$script,domain=s.tmall.com
+||fragment.tmall.com.danuoyi.alicdn.com^$script,domain=tmall.com
+||g.alicdn.com/code/mlog*$script,domain=tmall.com
+||g.alicdn.com/AWSC/*$script,domain=tmall.com
+||g.alicdn.com/tb/*$script,domain=tmall.com
+||g.alicdn.com/aliww/*$script,domain=tmall.com
+||g.alicdn.com/tmg-fe/*$script,domain=tmall.com
+||www.googletagmanager.com/gtag/*$script,domain=tmall.com
+||g.alicdn.com/jstracker/*$script,domain=tmall.com
+||g.alicdn.com/universal/*$script,domain=tmall.com
+||g.alicdn.com/cell/*$script,domain=tmall.com
+
+# cosmetic filtering
+# remove recommendation bar
+s.taobao.com##.RightLay--rightWrap--OxNNeu6
